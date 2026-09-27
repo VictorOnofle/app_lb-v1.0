@@ -1,0 +1,52 @@
+name: lobos_cafajestes
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- PACOTES BASE E VISUAIS ---
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.4
+  file_picker: ^8.1.2
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+
+  # --- ARQUITETURA MVVM ---
+  provider: ^6.1.1
+
+  # --- BANCO DE DADOS EM NUVEM (Firebase) ---
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+
+  # --- INTEGRAÇÕES FUTURAS ABERTAS ---
+
+  # Requisições HTTP (Pagamentos Fase de teste)
+  dio: ^5.4.0
+
+  # Mapas e Trajetos em Tempo Real
+  google_maps_flutter: ^2.5.3
+  geolocator: ^10.1.0
+
+  # Geração de Relatórios da Diretoria
+  excel: ^3.0.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # arquivos estáticos
+  assets:
+    - assets/logo.png
+    - assets/animations/moto_rider.json
